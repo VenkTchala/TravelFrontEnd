@@ -1,0 +1,7 @@
+.mainContainer {
+  display: block;
+}
+.heroContainer {
+  display: flex;
+  justify-content: space-evenly;
+}

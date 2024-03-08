@@ -1,0 +1,39 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.userSection {
+  display: flex;
+  flex-direction: row;
+}
+.headerContainer {
+  background-color: #4caf50; /* Green color */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+}
+
+.userSection p {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.userSection .active {
+  color: #ffeb3b; /* Yellow color */
+  font-weight: bold;
+}
